@@ -1,5 +1,7 @@
 Temat projektu: "System zarządzania wielooddziałową wypożyczalnią rowerów (i innych pojazdów hulajnogi, trójkołowce, deskorolki ...)"
 
+Realizacja w ASP.NET Core Web App (Model-View-Controller)
+
 Funkcjonalność:
 1. Zarządzanie Wypożyczalniami 	
 - Wprowadzanie do bazy

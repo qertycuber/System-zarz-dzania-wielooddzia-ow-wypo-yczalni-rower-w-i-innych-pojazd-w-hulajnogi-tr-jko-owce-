@@ -1,0 +1,14 @@
+1. Utworzyć projekt, który będzie stopniowo rozbudowywany
+2. Wykonać modyfikację layoutu
+- Wprowadzić nagłówek portalu (UBB Sport Equipment Rental System)b. 
+3. Stworzyć stopkę z informacjami kontaktowymi
+- Przygotować widok domyślny z informacjami o portalu 
+- Z wyeksponowaną nazwą
+- Opisem działania
+- Przykładowymi zdjęciami (statyczne obrazy umieszczone w aplikacji)
+- Przygotować strony, w postaci osobnych PartialView)z Informacjami RODO (znaleźć przykładowe), CookiePolicy , Umieścić je w folderze Shared, Wykorzystać je do generowania widoku dla Akcji Privacy kontorlera Home
+- 4. Przygotować ViewModele do Obsługi Listy Pojazdów
+- VehicleDetailViewModel – do prezentacji szczegółów pojedynczego pojazdu
+- VehicleItemViewModel – do prezentacji pozycji na liście pojazdów
+- Przygotować Controller Vehicles i Widoki do prezentacji listy Pojazdów i Danych  dla wybranego Pojazdu
+- Zaprezentować Widoki dla danych testowych (przygotowanych statycznie w kodzie)

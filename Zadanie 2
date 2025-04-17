@@ -1,1 +1,22 @@
+1. Stwórz Klasy stanowiące model danych dla potrzebnego systemu
+2. Zdefiniuj typy określające model danych a docelowo tabele w bazie danych
+Typ Pojazdu
+Pojazd,
+PunktyWypozyczen
+Rezerwacje (pojazdów)
+Wypozyczenia
 
+1. Jako dane użytkowników będą wykorzystywane tabele uzyskane przez odpowiednie stworzenie DBContextu
+2. Zdefiniuj DbContext (można wykorzystać wygenerowaną klasę ApliactionDbContext) zawierający odpowiednie tabele. (Wywodząc DbContext od IdentityDbContex można uzyskać obsługę użytkowników).
+3. Skonfiguruj aplikację by Kontekst Bazodanowy był połączony z testową baza w Pamięci. (InMemory, options.UseInMemory ....) 
+
+1. Zdefiniuj Serwis Implementujący wzorzec Repository służący do wykonania podstawowych operacji CRUD na wybranej tabeli
+2. Skonfiguruj mechanizm wstrzykiwania dla stworzonego wzorca Repository.
+3. Stwórz  Kontroler służący do Wprowadzania Danych Pojazdów (implementujący CRUD). (Można wykorzystać scaffolding.).
+Kontroler Docelowo powinien wykorzystywać wstrzykiwane repozytorium.
+Wygeneruj widoki dla akcji w kontrolerze
+4. Stwórz  Kontroler służący do Wprowadzania Punktów Wypożyczeń (implementujący CRUD). (Można wykorzystać scaffolding.).
+Kontroler Docelowo powinien wykorzystywać wstrzykiwane repozytorium.
+Wygeneruj widoki dla akacji w kontrolerze.
+5. W wyświetlaniu korzystaj z ViewModeli pojazdów zdefiniowanych w ramach Laboratorium 01. (Jeśli trzeba - rozbuduj View Modele o rzeczy związane z typem).
+6. Zbuduj ViewModele dla Punktów Wypozyczeń i zastosuje je w odpowiednich widokach
